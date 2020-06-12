@@ -1,0 +1,11 @@
+Crop_Name,Season_Type,Temperature(in Celsius),Rainfall(in cm),Soil_Type,Major_Areas
+Rice,Kharif,24,150,Alluvial,WestBengal
+Wheat,Rabi,17,170,Alluvial,UttarPradesh
+Cotton,Kharif,21-30,50-100,Alluvial,Maharashtra
+Sugarcane,Kharif,20-26,75-150,Black,UttarPradesh
+Jowar,Kharif,27-32,40,Black/Brown,Maharashtra
+Bajra,Kharif,20-30,40-50,Sandy,Maharashtra
+Tea,Kharif,20-30,150-100,Black/sandy,Assam
+Coffee,Rabi,16-28,150-250,Loamy,Karnataka
+Barley,Rabi,5-27,39-43,Sandy,Rajasthan
+Maize,Kharif,35,60-100,Loamy/Black,Karnataka
