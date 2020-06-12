@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Prediction</title>
+    </head>
+    <body background="{{ url_for('static', filename='baner2.jpg') }}">
+        <center>
+            <font color="cornsilk" size="4">
+                <table width="10%" align="center">
+                    <tr>
+                        <td><img src="{{ url_for('static', filename='10.png') }}" height="200" width="300"></td>
+                    </tr>
+                </table>
+                <br>
+                <h4>Please Fill the details below to predict the TOTAL PRODUCTION:</h4></font>
+                <font color="white" size="3">
+                <form action="predict-label" method="post">
+                    Enter State(in capitals): <br><br><input type='text' name='feature1' placeholder='Eg: Punjab'/>
+                    <br><br>
+                    Enter Crop: <br><br><input type='text' name='feature2' placeholder='Eg: Rice'/>
+                    <br><br>
+                    Enter Year: <br><br><input type='text' name='feature3' placeholder='Eg: 2020'/>
+                    <br><br>
+                    <input type='submit' value='Predict'/>
+                </form>
+            </font>
+        </center>
+    </body>
+</html>

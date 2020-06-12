@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Home</title>
+</head>
+    <body background="{{ url_for('static', filename='baner2.jpg') }}">
+         <font color="cornsilk">
+        <table width="10%" align="center">
+            <tr>
+                <td><img src="{{ url_for('static', filename='10.png') }}" height="200" width="300"></td>
+            </tr>
+        </table><br>
+        <table align="center" width="40%">
+            <tr>
+                <td>
+                    <a href="http://127.0.0.1:5000/prediction">
+                        <img src="{{url_for('static', filename='prediction.jpg')}}" width="250" height="200" />
+                    </a>
+                </td>
+
+                <td>
+                    <a href="http://127.0.0.1:5000/graphhome">
+                        <img src="{{url_for('static', filename='graph.jpg')}}" width="250" height="200" />
+                    </a>
+                </td>
+            </tr>
+        </table>
+        </font>
+    </body>
+</html>

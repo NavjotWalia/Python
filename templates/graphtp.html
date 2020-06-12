@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Graph</title>
+    </head>
+    <body background="{{ url_for('static', filename='baner2.jpg') }}">
+         <center>
+                <font color="cornsilk" size="4">
+                <table width="10%" align="center">
+                    <tr>
+                        <td><img src="{{ url_for('static', filename='10.png') }}" height="200" width="300"></td>
+                    </tr>
+                </table>
+                <br>
+                    <h4>Please Fill the details below to analyse the Total Production of the crop yearly.</h4></font>
+                <font color="white" size="3">
+                    <form action="graph-label" method="post">
+                    Enter Name of the State(In Capitals): <br><br><input type='text' name='feature1' placeholder='Eg:PUNJAB'/>
+                    <br/><br>
+                    Enter Crop Name: <br><br><input type='text' name='feature2' placeholder='Eg:Wheat'/>
+                    <br/><br>
+                    <input type='submit' value='Show'/>
+                    </form>
+                </font>
+        </center>
+    </body>
+</html>

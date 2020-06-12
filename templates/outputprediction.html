@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Prediction</title>
+    </head>
+    <body background="{{ url_for('static', filename='baner2.jpg') }}">
+        <center>
+            <font color="white" size="7">
+                <table width="10%" align="center">
+                    <tr>
+                        <td><img src="{{ url_for('static', filename='10.png') }}" height="200" width="300"></td>
+                    </tr>
+                </table>
+
+            <p>{{output}}</p>
+
+        <form action="revert-predict">
+                <input type='submit' value='Home'/>
+        </form>
+
+            </font>
+        </center>
+    </body>
+</html>
